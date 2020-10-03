@@ -1,13 +1,19 @@
+
 {
   "name": "hypixel-bot-by-xingyan",
-  "version": "1.0.0",
-  "description": "hypixel bot",
+  "version": "0.0.1",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "eris": "^0.7.2",
+    "hypixel-node": "1.2.1",
+    "moment": "2.29.0",
+    "phin": "3.5.0",
+    "node-fetch": "2.6.1"
+  },
+  "engines": {
+    "node": "8.x"
+  }
 }
