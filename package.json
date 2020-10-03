@@ -9,4 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+  "start": "node bot.js"
 }
